@@ -18,7 +18,7 @@ app = FastAPI(
 origins = [
     "http://localhost:5173", # Default Vite/React port
     "http://localhost:3000", # Common alternative for React dev server
-    "https://iot-dashboard.vercel.app"
+    "https://iot-frontend-iota-six.vercel.app/"
 ]
 
 app.add_middleware(
